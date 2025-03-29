@@ -1,0 +1,273 @@
+{
+  "name": "using-gpl",
+  "version": "1.0.3",
+  "lockfileVersion": 1,
+  "requires": true,
+  "dependencies": {
+    "@angular-devkit/build-optimizer": {
+      "version": "0.1202.18",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/@angular-devkit/build-optimizer/-/build-optimizer-0.1202.18.tgz",
+      "integrity": "sha512-8ANaqa66IuaSRqJT3zTNUoeRDyLanE56tkNWqgYDPyZUsafEsomh9/fGVIkazymP1hReDLw+RoxSVxUsaRSsTA==",
+      "requires": {
+        "source-map": "0.7.3",
+        "tslib": "2.3.0",
+        "typescript": "4.3.5"
+      }
+    },
+    "@babel/runtime": {
+      "version": "7.26.10",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/@babel/runtime/-/runtime-7.26.10.tgz",
+      "integrity": "sha512-2WJMeRQPHKSPemqk/awGrAiuFfzBmOIPXKizAsVhWH9YJqLZ0H+HS4c8loHGgW6utJ3E/ejXQUsiGaQy2NZ9Fw==",
+      "requires": {
+        "regenerator-runtime": "^0.14.0"
+      }
+    },
+    "@node-red/util": {
+      "version": "3.1.15",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/@node-red/util/-/util-3.1.15.tgz",
+      "integrity": "sha512-vuNBpyiyYNMVumzDYdEg1V/cJkuz74Dq+P90nWVBK4stqpmgD0/v1ntrUGhHBaSfeLXx/GmfMQk70n8ew3dlFA==",
+      "requires": {
+        "fs-extra": "11.1.1",
+        "i18next": "21.10.0",
+        "json-stringify-safe": "5.0.1",
+        "jsonata": "1.8.7",
+        "lodash.clonedeep": "^4.5.0",
+        "moment": "2.29.4",
+        "moment-timezone": "0.5.43"
+      }
+    },
+    "@paljs/nexus": {
+      "version": "2.14.0",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/@paljs/nexus/-/nexus-2.14.0.tgz",
+      "integrity": "sha512-qTJw6IxK/VviLMu7gAFZ+xsvtIrjNRnEaIW9bT841pFwPouKf+0L89W6HqQDPXI6bcU2gI1M1c7CW/GaKyiDww==",
+      "requires": {
+        "@paljs/plugins": "^2.14.0",
+        "fs-extra": "^9.1.0",
+        "lowdb": "^1.0.0"
+      },
+      "dependencies": {
+        "fs-extra": {
+          "version": "9.1.0",
+          "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/fs-extra/-/fs-extra-9.1.0.tgz",
+          "integrity": "sha512-hcg3ZmepS30/7BSFqRvoo3DOMQu7IjqxO5nCDt+zM9XWjb33Wg7ziNT+Qvqbuc3+gWpzO02JubVyk2G4Zvo1OQ==",
+          "requires": {
+            "at-least-node": "^1.0.0",
+            "graceful-fs": "^4.2.0",
+            "jsonfile": "^6.0.1",
+            "universalify": "^2.0.0"
+          }
+        }
+      }
+    },
+    "@paljs/plugins": {
+      "version": "2.14.0",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/@paljs/plugins/-/plugins-2.14.0.tgz",
+      "integrity": "sha512-e2NSL4ca6Nb/GOb+lwqJpsPy6TOWs4hJkj0DlUIMF4XI3oH4jm3qE8D4vshIyFoLdXzBFruy9FWLDWpDZuaphQ==",
+      "requires": {
+        "@paljs/types": "^2.14.0",
+        "graphql-fields": "2.0.3",
+        "graphql-tag": "2.11.0"
+      }
+    },
+    "@paljs/types": {
+      "version": "2.14.0",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/@paljs/types/-/types-2.14.0.tgz",
+      "integrity": "sha512-/cFaf8Wg+ZW5vNUHBpk7KyO09w5zNDbEP7Sn3L6KyjDWDcQEJlvMIdDo7ZeL4KZDECNhKErXUMM8042MeyR1ag=="
+    },
+    "@tashop/oil.js": {
+      "version": "1.3.5",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/@tashop/oil.js/-/oil.js-1.3.5.tgz",
+      "integrity": "sha512-ODFR9yFfNWdrhHcOU+D9p7MJwR2gl+vQYXpjif7bLvpkQFEXu3KrCLZ8mDdsch0PMXsDjOFe+x6z9udH4umJOg==",
+      "requires": {
+        "consent-string": "1.4.2",
+        "js-cookie": "2.1.4"
+      }
+    },
+    "@tbowmo/node-red-small-timer": {
+      "version": "0.19.0",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/@tbowmo/node-red-small-timer/-/node-red-small-timer-0.19.0.tgz",
+      "integrity": "sha512-gESkaci1Avuww9oEP9TyR45F3m5APIGfHk7dV2VYFulY2qDoPChCZuNEw/oUMY/OkQI8rapIPUAkjlJ3D2gqmw==",
+      "requires": {
+        "@node-red/util": "^3.1.14",
+        "date-fns": "^4.1.0",
+        "suncalc": "^1.9.0"
+      }
+    },
+    "at-least-node": {
+      "version": "1.0.0",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/at-least-node/-/at-least-node-1.0.0.tgz",
+      "integrity": "sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg=="
+    },
+    "base-64": {
+      "version": "0.1.0",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/base-64/-/base-64-0.1.0.tgz",
+      "integrity": "sha512-Y5gU45svrR5tI2Vt/X9GPd3L0HNIKzGu202EjxrXMpuc2V2CiKgemAbUUsqYmZJvPtCXoUKjNZwBJzsNScUbXA=="
+    },
+    "consent-string": {
+      "version": "1.4.2",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/consent-string/-/consent-string-1.4.2.tgz",
+      "integrity": "sha512-B6QW/MlUG0Iqfkiyl3bNOjIfOR13HarGEmOGxbe2nGqwrxCmn717UTFsELCkt1u+Swtb2TBIbteisBBORRB8uw==",
+      "requires": {
+        "base-64": "^0.1.0"
+      }
+    },
+    "date-fns": {
+      "version": "4.1.0",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/date-fns/-/date-fns-4.1.0.tgz",
+      "integrity": "sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg=="
+    },
+    "fs-extra": {
+      "version": "11.1.1",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/fs-extra/-/fs-extra-11.1.1.tgz",
+      "integrity": "sha512-MGIE4HOvQCeUCzmlHs0vXpih4ysz4wg9qiSAu6cd42lVwPbTM1TjV7RusoyQqMmk/95gdQZX72u+YW+c3eEpFQ==",
+      "requires": {
+        "graceful-fs": "^4.2.0",
+        "jsonfile": "^6.0.1",
+        "universalify": "^2.0.0"
+      }
+    },
+    "graceful-fs": {
+      "version": "4.2.11",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/graceful-fs/-/graceful-fs-4.2.11.tgz",
+      "integrity": "sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ=="
+    },
+    "graphql-fields": {
+      "version": "2.0.3",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/graphql-fields/-/graphql-fields-2.0.3.tgz",
+      "integrity": "sha512-x3VE5lUcR4XCOxPIqaO4CE+bTK8u6gVouOdpQX9+EKHr+scqtK5Pp/l8nIGqIpN1TUlkKE6jDCCycm/WtLRAwA=="
+    },
+    "graphql-tag": {
+      "version": "2.11.0",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/graphql-tag/-/graphql-tag-2.11.0.tgz",
+      "integrity": "sha512-VmsD5pJqWJnQZMUeRwrDhfgoyqcfwEkvtpANqcoUG8/tOLkwNgU9mzub/Mc78OJMhHjx7gfAMTxzdG43VGg3bA=="
+    },
+    "i18next": {
+      "version": "21.10.0",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/i18next/-/i18next-21.10.0.tgz",
+      "integrity": "sha512-YeuIBmFsGjUfO3qBmMOc0rQaun4mIpGKET5WDwvu8lU7gvwpcariZLNtL0Fzj+zazcHUrlXHiptcFhBMFaxzfg==",
+      "requires": {
+        "@babel/runtime": "^7.17.2"
+      }
+    },
+    "is-promise": {
+      "version": "2.2.2",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/is-promise/-/is-promise-2.2.2.tgz",
+      "integrity": "sha512-+lP4/6lKUBfQjZ2pdxThZvLUAafmZb8OAxFb8XXtiQmS35INgr85hdOGoEs124ez1FCnZJt6jau/T+alh58QFQ=="
+    },
+    "js-cookie": {
+      "version": "2.1.4",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/js-cookie/-/js-cookie-2.1.4.tgz",
+      "integrity": "sha512-ACJgj9MPgn/ac4b55OZFbPY/u57HTSkOD65ScYN1sh/js0pQP7WQh7/kFt6/NxBOHKlwVsxZWliVo7CkxF0Cjg=="
+    },
+    "json-stringify-safe": {
+      "version": "5.0.1",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz",
+      "integrity": "sha512-ZClg6AaYvamvYEE82d3Iyd3vSSIjQ+odgjaTzRuO3s7toCdFKczob2i0zCh7JE8kWn17yvAWhUVxvqGwUalsRA=="
+    },
+    "jsonata": {
+      "version": "1.8.7",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/jsonata/-/jsonata-1.8.7.tgz",
+      "integrity": "sha512-tOW2/hZ+nR2bcQZs+0T62LVe5CHaNa3laFFWb/262r39utN6whJGBF7IR2Wq1QXrDbhftolk5gggW8uUJYlBTQ=="
+    },
+    "jsonfile": {
+      "version": "6.1.0",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/jsonfile/-/jsonfile-6.1.0.tgz",
+      "integrity": "sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==",
+      "requires": {
+        "graceful-fs": "^4.1.6",
+        "universalify": "^2.0.0"
+      }
+    },
+    "lodash": {
+      "version": "4.17.21",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/lodash/-/lodash-4.17.21.tgz",
+      "integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
+    },
+    "lodash.clonedeep": {
+      "version": "4.5.0",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz",
+      "integrity": "sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ=="
+    },
+    "lowdb": {
+      "version": "1.0.0",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/lowdb/-/lowdb-1.0.0.tgz",
+      "integrity": "sha512-2+x8esE/Wb9SQ1F9IHaYWfsC9FIecLOPrK4g17FGEayjUWH172H6nwicRovGvSE2CPZouc2MCIqCI7h9d+GftQ==",
+      "requires": {
+        "graceful-fs": "^4.1.3",
+        "is-promise": "^2.1.0",
+        "lodash": "4",
+        "pify": "^3.0.0",
+        "steno": "^0.4.1"
+      }
+    },
+    "moment": {
+      "version": "2.29.4",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/moment/-/moment-2.29.4.tgz",
+      "integrity": "sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w=="
+    },
+    "moment-timezone": {
+      "version": "0.5.43",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/moment-timezone/-/moment-timezone-0.5.43.tgz",
+      "integrity": "sha512-72j3aNyuIsDxdF1i7CEgV2FfxM1r6aaqJyLB2vwb33mXYyoyLly+F1zbWqhA3/bVIoJ4szlUoMbUnVdid32NUQ==",
+      "requires": {
+        "moment": "^2.29.4"
+      }
+    },
+    "my-gpl-package": {
+      "version": "1.0.0",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/my-gpl-package/-/my-gpl-package-1.0.0.tgz",
+      "integrity": "sha512-sJUG98LflKSkuJjjgqrBzdqFmxHYx6bClqtSiAFHaIAew8H3k6ZcVSo14IqSRoPdm8kxxOcBdwq56cY+9BDKYQ=="
+    },
+    "nexus-plugin-paljs": {
+      "version": "2.0.0",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/nexus-plugin-paljs/-/nexus-plugin-paljs-2.0.0.tgz",
+      "integrity": "sha512-46MQRW8/mF8zQvlh1fUnjn6PvAFN6s/KT8JuEfHu25j6rWMdGRmOQP9JKuVndnv8v8Ag33Diwdvo+ZNkAACR+Q==",
+      "requires": {
+        "@paljs/nexus": "^2.0.0"
+      }
+    },
+    "pify": {
+      "version": "3.0.0",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/pify/-/pify-3.0.0.tgz",
+      "integrity": "sha512-C3FsVNH1udSEX48gGX1xfvwTWfsYWj5U+8/uK15BGzIGrKoUpghX8hWZwa/OFnakBiiVNmBvemTJR5mcy7iPcg=="
+    },
+    "regenerator-runtime": {
+      "version": "0.14.1",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz",
+      "integrity": "sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw=="
+    },
+    "source-map": {
+      "version": "0.7.3",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/source-map/-/source-map-0.7.3.tgz",
+      "integrity": "sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ=="
+    },
+    "steno": {
+      "version": "0.4.4",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/steno/-/steno-0.4.4.tgz",
+      "integrity": "sha512-EEHMVYHNXFHfGtgjNITnka0aHhiAlo93F7z2/Pwd+g0teG9CnM3JIINM7hVVB5/rhw9voufD7Wukwgtw2uqh6w==",
+      "requires": {
+        "graceful-fs": "^4.1.3"
+      }
+    },
+    "suncalc": {
+      "version": "1.9.0",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/suncalc/-/suncalc-1.9.0.tgz",
+      "integrity": "sha512-vMJ8Byp1uIPoj+wb9c1AdK4jpkSKVAywgHX0lqY7zt6+EWRRC3Z+0Ucfjy/0yxTVO1hwwchZe4uoFNqrIC24+A=="
+    },
+    "tslib": {
+      "version": "2.3.0",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/tslib/-/tslib-2.3.0.tgz",
+      "integrity": "sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg=="
+    },
+    "typescript": {
+      "version": "4.3.5",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/typescript/-/typescript-4.3.5.tgz",
+      "integrity": "sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA=="
+    },
+    "universalify": {
+      "version": "2.0.1",
+      "resolved": "https://art.code.pan.run:443/artifactory/api/npm/npm-registry/universalify/-/universalify-2.0.1.tgz",
+      "integrity": "sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw=="
+    }
+  }
+}
