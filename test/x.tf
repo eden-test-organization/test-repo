@@ -20,7 +20,7 @@ resource "aws_security_group" "open_sg" {
 }
 
 resource "aws_instance" "insecure_instance" {
-  ami           = "ami-12345678"
+  ami           = "ami-123456718"
   instance_type = "t2.micro"
   key_name      = "hardcoded-key"  # Vulnerability: Hardcoded SSH key
   security_groups = [aws_security_group.open_sg.name]
